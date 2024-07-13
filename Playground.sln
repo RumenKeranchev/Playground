@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists", "LinkedLists\LinkedLists.csproj", "{659A8DF3-EA68-491F-87EA-2F2BBD36D7B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.AppHost", "AspireApp\AspireApp.AppHost\AspireApp.AppHost.csproj", "{07C5745F-2187-4F2C-B368-60B0754B28DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireApp.AppHost", "AspireApp\AspireApp.AppHost\AspireApp.AppHost.csproj", "{07C5745F-2187-4F2C-B368-60B0754B28DA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireApp.ServiceDefaults", "AspireApp\AspireApp.ServiceDefaults\AspireApp.ServiceDefaults.csproj", "{B6CE2AB1-94F3-42C9-8808-A5A990EA912E}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireApp.Web", "AspireApp\AspireApp.Web\AspireApp.Web.csproj", "{23D308E9-921D-4E05-8699-FFCAA08A921F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspire", "Aspire", "{D60B1288-9DE8-452E-9F78-4CF58C94BCD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownloader", "FileDownloader\FileDownloader.csproj", "{F42BC69E-8B44-452A-95EE-E6ADF58EF56B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{23D308E9-921D-4E05-8699-FFCAA08A921F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23D308E9-921D-4E05-8699-FFCAA08A921F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23D308E9-921D-4E05-8699-FFCAA08A921F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42BC69E-8B44-452A-95EE-E6ADF58EF56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42BC69E-8B44-452A-95EE-E6ADF58EF56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42BC69E-8B44-452A-95EE-E6ADF58EF56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42BC69E-8B44-452A-95EE-E6ADF58EF56B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
